@@ -1,0 +1,110 @@
+.footer{
+    position:absolute;
+    bottom:0;
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    text-align: center;
+    color: white;
+
+  }
+li{
+  list-style-type: none;
+ color:aliceblue;
+  text-decoration:none;
+  font-size: 25px;
+}
+.container1{
+ /* background-image: url("https://st2.depositphotos.com/1757635/8830/i/950/depositphotos_88302772-stock-photo-global-business-strategy.jpg");*/
+  background-image: url("C:\Users\omkar\Desktop\fornt-end\employee\src\assets\list.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 90vh;
+}
+.link{
+  text-decoration: none;
+}
+.bars{
+  background-color:rgb(75, 74, 74);
+  height: 370px;
+  border-radius: 10px;
+  /*margin-top: 55px;*/
+}
+.card2{
+  display: flex;
+  flex-direction:row;
+  justify-content: flex-start;
+  align-items: center;
+  
+  
+}
+.container2{
+  background-image: url("C:\Users\omkar\Desktop\fornt-end\employee\src\assets\home1.jpg");
+
+  /*background-image: linear-gradient(to bottom right,rgb(143, 31, 184),rgba(19, 57, 249, 0.653));*/
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.img{
+  height: 250px;
+  width: 450px;
+
+}
+.display1{
+  display: flex;
+  flex-direction:row;
+  justify-content:center;
+  align-items: flex-start;
+
+}
+.button{
+  width: 150px;
+  height: 40px;
+  border-radius: 10px;
+}
+.card1{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  border-radius: 10px;
+}
+nav a.active{
+  font-weight: bold;
+  text-decoration: none;
+  color:black;
+}
+.icon1{
+  width:100px;
+  height: 40px;
+  margin: 5px;
+}
+.dashboard{
+  margin-top: 55px;
+}
+.card3{
+  height:180px ;
+  width:390px;
+  border: 2px solid black;
+  border-radius: 15px;
+  margin-bottom: 20px;
+  padding:5px;
+}
+h4{
+  text-align: center;
+  margin-top:30px;
+}
+.img2{
+  width: 80%;
+  height: 80px;
+  
+}
+.iconA{
+  color: black;
+}
+.anchor{
+  color:black;
+  text-decoration: none;
+  font-weight: 800;
+}
