@@ -155,7 +155,7 @@ const EmployeeComponent = () => {
                         <div className='form-group mb-2'>
                             <label className="form-label">Department</label>
                             <input type='text'
-                            placeholder='Enter Employee Last Name'
+                            placeholder='Enter Employee Department'
                             name='lastName'
                             value={department}
                             className={`form-control ${errors.department?'is-invalid':''}`}
@@ -165,7 +165,7 @@ const EmployeeComponent = () => {
                         <div className='form-group mb-2'>
                             <label className="form-label">Experience</label>
                             <input type='text'
-                            placeholder='Enter Employee Last Name'
+                            placeholder='Enter Employee Experience'
                             name='lastName'
                             value={experience}
                             className={`form-control ${errors.experience?'is-invalid':''}`}
@@ -175,7 +175,7 @@ const EmployeeComponent = () => {
                         <div className='form-group mb-2'>
                             <label className="form-label">Age</label>
                             <input type='text'
-                            placeholder='Enter Employee Last Name'
+                            placeholder='Enter Employee Age'
                             name='lastName'
                             value={age}
                             className={`form-control ${errors.age?'is-invalid':''}`}
@@ -185,7 +185,7 @@ const EmployeeComponent = () => {
                         <div className='form-group mb-2'>
                             <label className="form-label">Gender</label>
                             <input type='text'
-                            placeholder='Enter Employee Last Name'
+                            placeholder='Enter Employee Gender'
                             name='lastName'
                             value={gender}
                             className={`form-control ${errors.gender?'is-invalid':''}`}
@@ -195,7 +195,7 @@ const EmployeeComponent = () => {
                         <div className='form-group mb-2'>
                             <label className="form-label">Contact</label>
                             <input type='text'
-                            placeholder='Enter Employee Last Name'
+                            placeholder='Enter Employee Contact'
                             name='lastName'
                             value={phoneNo}
                             className={`form-control ${errors.phoneNo?'is-invalid':''}`}
@@ -205,7 +205,7 @@ const EmployeeComponent = () => {
                         <div className='form-group mb-2'>
                             <label className="form-label">Salary</label>
                             <input type='text'
-                            placeholder='Enter Employee Last Name'
+                            placeholder='Enter Employee Salary'
                             name='lastName'
                             value={salary}
                             className={`form-control ${errors.salary?'is-invalid':''}`}

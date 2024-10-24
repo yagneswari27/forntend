@@ -16,7 +16,7 @@ const Home = () => {
         </div>
         <div className='m-2'>
           <h1>Employee Management System</h1>
-          <p>Welcome to the presentation of our innovative Employee management System.This system will revolutionize how you manage your workforce,streamline processes,and inprove overall effciency.</p>
+          <p>Welcome to the Employee management System.This system will revolutionize how you manage your workforce,streamline processes,and inprove overall effciency.Managing employees efficiently is key to the success of any organization. Our Employee Management System (EMS) is designed to streamline and automate HR processes, helping your organization save time, reduce errors, and improve productivity.</p>
         </div>
       </div>
       <button className='button' onClick={goToDashboard}>Get Started</button>

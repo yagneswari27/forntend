@@ -16,18 +16,15 @@ function getAllEmployees(){
      })
 }
   return (
-    <div className='container-fluid p-5 bg'>
-        <h3 style={{color:'white'}}>Employee Personal Details</h3>
+    <div className=' p-5 bg1'>
+        <h3 style={{color:'white'}}>Employee Salary Details</h3>
          <table className='table table-striped table-bordered'>
             <thead>
                 <tr>
                     <th>Id</th>
                     <th>Name</th>
-                    <th>Age</th>
-                    <th>Gender</th>
-                    <th>Contact</th>
-                  
-                    <th>Email</th>
+                    <th>Experience</th>
+                    <th>Salary</th>
                 </tr>
             </thead>
             <tbody>
@@ -36,11 +33,9 @@ function getAllEmployees(){
                         <tr key={employee.id}>
                             <td>{employee.id}</td>
                             <td>{employee.firstName}</td>
-                            <td>{employee.age}</td>
-                            <td>{employee.gender}</td>
-                            <td>{employee.phoneNo}</td>
-                            
-                            <td>{employee.email}</td>
+                            <td>{employee.experience}</td>
+                            <td>{employee.salary}</td>
+                           
                         </tr>
                     )
                 }

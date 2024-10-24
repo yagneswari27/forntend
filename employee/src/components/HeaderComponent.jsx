@@ -15,7 +15,7 @@ const HeaderComponent = () => {
                  <NavLink to="/home" style={{textDecoration:'none'}}><li className='m-1 link'><FontAwesomeIcon icon={ faHouse} />Home</li></NavLink> 
                  {/* <NavLink to="/employees" style={{textDecoration:'none'}}><li className='m-1 link'>ListOfEmployees</li></NavLink> */}
                  <NavLink to="/about" style={{textDecoration:'none'}}><li className='m-1 link'><FontAwesomeIcon icon={faGauge} />Dashboard</li></NavLink>
-                 <NavLink to="/" style={{textDecoration:'none'}}><li className='m-1 link'><FontAwesomeIcon icon={faAddressCard} />Contact us</li></NavLink> 
+                 <NavLink to="/contact" style={{textDecoration:'none'}}><li className='m-1 link'><FontAwesomeIcon icon={faAddressCard} />Contact us</li></NavLink> 
                 </ul>
             </nav>
         </header>
